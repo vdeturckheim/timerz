@@ -1,6 +1,8 @@
 'use strict';
 const Assert = require('assert');
 
+console.log(process.versions)
+
 const waitTime = 1 * 1000; // ms
 const waitTimeMicro = waitTime * 1e6;
 const deltaMicto = Math.floor(waitTime * 0.5/100) * 1e6;
